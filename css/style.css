@@ -1,0 +1,178 @@
+
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+h1, h2, h3, h4{
+    font-weight: bold;
+}
+
+
+/* NavBar */
+
+.navbar{
+    padding: 0 2rem ;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.nav-items{
+    padding: 0 10px;
+}
+.nav-link{
+    font-family: 'Montserrat-Light', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+/* title section */
+
+.title{
+    color: white;
+    padding: 2% 5%;
+    background-image: url("../images/download.jpeg");
+    height: 70vh;
+}
+
+.fs{
+    margin: 100px 80px;
+    text-align: left;
+    height: 50%;
+    width: 300px;
+}
+
+.para{
+    font-size: x-small;
+}
+
+/* experience section */
+.exp{
+    text-align: left;
+    margin: 100px 150px;
+}
+
+.heading{
+    margin: 40px 0 0;
+    text-align: left;
+}
+
+.hr{
+    width: 20px;
+    margin: 50px 10px 10px;
+    border: 1px solid black;
+}
+
+.cexp{
+    border: none;
+    width: 260px;
+}
+
+.card-text{
+    text-align: left;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.btn{
+    margin: 15px;
+}
+
+/* brands section */
+
+.brands{
+    background-image: url("../images/image.jpg");
+    color: white;
+}
+
+.cont{
+    padding: 100px 200px;
+    text-align: left;
+}
+
+.layout-cont{
+    padding: 100px 200px;
+    text-align: left;
+}
+
+.list{
+    display: flex;
+}
+
+.br{
+    padding: 10px;
+}
+
+/* layouts section */
+
+.card{
+    border: none;
+    margin: 10px;
+}
+
+
+/* Blue section */
+.blue{
+    background-color: rgb(64, 145, 211);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pb{
+    padding: 20px 0 0;
+}
+
+/* footer section */
+
+.footer{
+    padding: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* to make website responsive */
+@media screen and (max-width: 540px) {
+    
+    .navbar{
+        padding: 0 2rem ;
+        width: 50rem;
+    }
+
+    .title{
+        height: 40vh;
+        width: 50rem;
+    }
+
+    .brands{
+        width: 50rem;
+    }
+
+    .cont{
+        padding: 100px 80px;
+    }
+
+    .layout-cont{
+        text-align: center;
+    }
+
+    .heading{
+        margin: 10px;
+        width: 50vh;
+        text-align: center;
+    }
+
+    .footer{
+        width: 50rem;
+    }
+
+    .blue{
+        width: 50rem;
+    }
+}
